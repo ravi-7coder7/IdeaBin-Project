@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdeaBin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 id="nav">IdeaBin</h1>
+        <ul id="in">
+            <!-- <li class="li1"><button id="sign-in"><b>Sign in</b></button></li> -->
+            <li class="li2"><button id="log-in"><b>Log in</b></button></li>
+
+        </ul>
+    </div>
+    <div id="container">
+        <!-- <div id="book-container">
+            <h2>Dopomine</h2>
+            <h5>Ravikumar</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur voluptatum nulla magnam ratione
+                vel. Reiciendis earum excepturi laborum impedit rem necessitatibus saepe totam aspernatur quis corrupti,
+                vitae, laudantium voluptates.</p>
+            <button id="delete-book" onclick="deletebook(event)">Delete</button>
+        </div> -->
+
+    </div>
+
+    <div id="popup-overlay"></div>
+    <div id="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book title" id="book-titile-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="description" id="book-description-input"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancle">Cancle</button>
+
+        </form>
+    </div>
+
+    <div id="log-in-page-container">
+        <h2>Log in</h2>
+        <button id="close-log-page">X</button><br>
+        <form id="loginpage-form">
+            <input type="text" placeholder="UserId" id="userid-input" required><br>
+            <input type="password" placeholder="password" id="password-input" required><br>
+            <button id="log-button">LOGIN</button><br>
+            <h4 id="forgot-possword"> Forgot Possword</h4>
+            <h3>Don't you have account?</h3>
+            <h5>SIGN UP</h5>
+        </form>
+    </div>
+    <button id="add-btn">+</button>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
