@@ -31,5 +31,5 @@ If you're interested in contributing to the development of Ideabin, reach out to
 ##License Information
 
 
-[BSD-3-Clause license] (LICENSE)
+[MIT LICENSE ](LICENSE)
 The license information for Ideabin is to be determined. Please refer to the website or contact the project owner for details on the specific license used.
